@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libsorting.a  CMakeFiles/sorting.dir/bubbleSort.cpp.o CMakeFiles/sorting.dir/insertionSort.cpp.o CMakeFiles/sorting.dir/log.cpp.o CMakeFiles/sorting.dir/mergeSort.cpp.o CMakeFiles/sorting.dir/selectionSort.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libsorting.a
