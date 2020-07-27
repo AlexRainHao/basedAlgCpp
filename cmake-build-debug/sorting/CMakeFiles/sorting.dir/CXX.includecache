@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexrain/yyh/yyh_code/cpp/theAlg/sorting/auxFunc.h
+vector
+-
+
+/Users/alexrain/yyh/yyh_code/cpp/theAlg/sorting/mergeSort.cpp
+auxFunc.h
+/Users/alexrain/yyh/yyh_code/cpp/theAlg/sorting/auxFunc.h
+iostream
+-
+vector
+-
+
