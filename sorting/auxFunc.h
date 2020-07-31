@@ -12,3 +12,5 @@ void insertion_sort();
 void bubble_sort();
 void mergeSort();
 void shell_sort();
+void mergeSort_Iteration();
+void quick_sort();

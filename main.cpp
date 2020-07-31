@@ -8,6 +8,8 @@ int main() {
 //    insertion_sort();
 //    bubble_sort();
 //mergeSort();
-	shell_sort();
+//	shell_sort();
+//    mergeSort_Iteration();
+    quick_sort();
     return 0;
 }

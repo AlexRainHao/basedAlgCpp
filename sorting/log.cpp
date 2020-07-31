@@ -9,6 +9,6 @@ using namespace std;
 
 void LogVector(vector<int> &vector, char* name){
     cout << name << endl;
-    for (auto x: vector)
-        cout << x << endl;
+    for (int x: vector)
+        cout << x << ", ";
 }
