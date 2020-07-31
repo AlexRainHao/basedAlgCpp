@@ -24,5 +24,3 @@ void bubble_sort(){
 
     LogVector(oriArray, "bubble sort");
 }
-
-

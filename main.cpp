@@ -7,6 +7,7 @@ int main() {
 //    selection_sort();
 //    insertion_sort();
 //    bubble_sort();
-    mergeSort();
+//mergeSort();
+	shell_sort();
     return 0;
 }

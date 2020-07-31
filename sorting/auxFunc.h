@@ -11,3 +11,4 @@ void selection_sort();
 void insertion_sort();
 void bubble_sort();
 void mergeSort();
+void shell_sort();
