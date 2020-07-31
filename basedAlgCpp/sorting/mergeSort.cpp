@@ -2,10 +2,7 @@
 // Created by AlexRain on 2020/7/27.
 //
 
-//
-// Created by AlexRain on 2020/7/27.
-//
-
+#include "pch.h"
 #include "auxFunc.h"
 #include <iostream>
 #include <vector>
