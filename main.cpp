@@ -1,8 +1,9 @@
 #include <iostream>
 #include "./sorting/auxFunc.h"
+#include "./singlyLinkedList/utils.h"
 
 using namespace std;
-
+extern void test();
 int main() {
 //    selection_sort();
 //    insertion_sort();
@@ -10,6 +11,9 @@ int main() {
 //mergeSort();
 //	shell_sort();
 //    mergeSort_Iteration();
-    quick_sort();
+//    quick_sort();
+    LinkList L;
+    initList(L);
+    insert_by_position(L, 1, 5);
     return 0;
 }
