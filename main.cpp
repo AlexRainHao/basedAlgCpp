@@ -14,6 +14,11 @@ int main() {
 //    quick_sort();
     LinkList L;
     initList(L);
-    insert_by_position(L, 1, 5);
+    insert_by_position(L, 0, 5);
+    insert_by_position(L, 1, 10);
+    insert_forward_by_node(L, 20);
+
+    show_all_linklist(L);
+
     return 0;
 }

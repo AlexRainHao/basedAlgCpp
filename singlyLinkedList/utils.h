@@ -18,3 +18,8 @@ typedef struct LNode{
 void test_init();
 LinkList initList(LinkList &L);
 void insert_by_position(LinkList &L, int i, int e);
+void insert_by_node(LNode *p, int e);
+void insert_forward_by_node(LNode *p, int e);
+void delete_by_position(LinkList &L, int i);
+void show_all_linklist(LinkList &L);
+
