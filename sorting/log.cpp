@@ -6,9 +6,12 @@
 #include <vector>
 using namespace std;
 
+namespace sorting {
 
-void LogVector(vector<int> &vector, char* name){
-    cout << name << endl;
-    for (int x: vector)
-        cout << x << ", ";
+    void LogVector(vector<int> &vector, char *name) {
+        cout << name << endl;
+        for (int x: vector)
+            cout << x << ", ";
+        cout << endl;
+    }
 }
