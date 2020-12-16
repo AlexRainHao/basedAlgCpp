@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 add_subdirectory(sorting)
 add_subdirectory(singlyLinkedList)
 add_subdirectory(dualLinkedList)
+add_subdirectory(staticLinkedList)
+
 add_executable(theAlg main.cpp)
 
-target_link_libraries(theAlg sorting linkList dlinkelist)
+target_link_libraries(theAlg sorting linkList dlinklist slinkelist)

@@ -40,7 +40,7 @@ namespace dualLinkedList{
         for(int i = 0; i<size; i++){
             DNode *s = new DNode;
             s->element = arr[i];
-            insert_bw_dnode(D, s);
+            insert_fw_dnode(D, s);
         }
         show_fw_all_linklist(D);
     }
